@@ -1,0 +1,150 @@
+*{
+    list-style-type: none;
+}
+body{
+    font-family: "Harmattan", sans-serif;
+}
+.menu{
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+}
+.menu li{
+    float: right;
+}
+.menu p{
+    text-align: center;
+    font-size: 30px;
+    display: inline;
+}
+.a-menu{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    font-size: 20px;
+    padding: 17px;
+}
+.a-menu:hover{
+    background-color: #000;
+}
+.half-1{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.prof-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+.social{
+    width: 35px;
+    padding: 5px;
+}
+.skill{
+    padding: 15px;
+}
+.skill:after{
+    display: table;
+    content: "";
+    clear: both;
+}
+.left{
+    width: 20%;
+    float: left;
+}
+.left p{
+    font-size: 15px;
+}
+.right{
+    width: 80%;
+    float: left;
+}
+.main-bar{
+    background-color: grey;
+    display: block;
+    height: 25px;
+}
+.main-bar span{
+    background-color: teal;
+    height: 25px;
+    display: block;
+}
+.python{
+    width: 70%;
+    animation: python 2s;
+    color: #ffffff;
+}
+@keyframes python{
+    0%{
+        width: 0%;
+        background-color: green;
+    }
+    100%{
+        width: 70%;
+        background-color: teal;
+    }
+}
+
+.javascript{
+    width: 40%;
+    animation: javascript 2s;
+    color: #ffffff;
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+        background-color: green;
+    }
+    100%{
+        width: 40%;
+        background-color: teal;
+    }
+}
+
+
+.photoshop{
+    width: 60%;
+    animation: photoshop 2s;
+    color: #ffffff;
+}
+@keyframes photoshop{
+    0%{
+        width: 0%;
+        background-color: green;
+    }
+    100%{
+        width: 60%;
+        background-color: teal;
+    }
+}
+
+
+.data_analysis{
+    width: 80%;
+    animation: data_analysis 2s;
+    color: #ffffff;
+}
+@keyframes data_analysis{
+    0%{
+        width: 0%;
+        background-color: green;
+    }
+    100%{
+        width: 80%;
+        background-color: teal;
+    }
+}
+.foot{
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media screen and (max-width:800px) {
+    .half-1{
+        width: 100%;
+    }
+}
